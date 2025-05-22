@@ -67,3 +67,12 @@ logs/*
 
 # VS Code
 .vscode/*
+
+#ignore pip-edit clones of motion_code
+/data/
+/saved_models/
+/out/
+/notebooks/
+*.egg-info/
+*.pyc
+__pycache__/

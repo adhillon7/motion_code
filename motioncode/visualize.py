@@ -7,9 +7,9 @@ from sktime.forecasting.naive import NaiveForecaster
 from sktime.forecasting.arima import ARIMA
 from sktime.forecasting.structural import UnobservedComponents
 from sktime.forecasting.tbats import TBATS
-from data_processing import get_train_test_data_classify, get_train_test_data_forecast
-from utils import plot_timeseries, plot_motion_codes, plot_mean_covars
-from motion_code import MotionCode
+from .data_processing import get_train_test_data_classify, get_train_test_data_forecast
+from .utils import plot_timeseries, plot_motion_codes, plot_mean_covars
+from .motion_code import MotionCode
 
 
 # Color list for plotting

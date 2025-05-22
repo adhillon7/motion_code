@@ -21,9 +21,9 @@ from sktime.forecasting.arima import ARIMA
 from sktime.forecasting.exp_smoothing import ExponentialSmoothing
 from sktime.forecasting.structural import UnobservedComponents
 from sktime.forecasting.tbats import TBATS
-from data_processing import get_train_test_data_forecast, get_train_test_data_classify
-from motion_code import MotionCode, motion_code_classify, motion_code_forecast
-from utils import RMSE
+from .data_processing import get_train_test_data_forecast, get_train_test_data_classify
+from .motion_code import MotionCode, motion_code_classify, motion_code_forecast
+from .utils import RMSE
 
 
 ################################ Helper functions ################################

@@ -3,7 +3,7 @@ import os
 from scipy.interpolate import interp1d, UnivariateSpline, Rbf
 import scipy.io.wavfile as wavfile
 from sktime.datasets import load_UCR_UEA_dataset
-from parkinson_data_processing import get_parkinson_train_test_data
+from .parkinson_data_processing import get_parkinson_train_test_data
 
 
 def clear():

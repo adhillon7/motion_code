@@ -14,7 +14,10 @@ setup(
     long_description_content_type="text/markdown",
     author="Your Name",
     url="https://github.com/yourusername/motion_code",
-    packages=find_packages(include=["motion_code", "motion_code.*"]),
+    packages=find_packages(
+        include=["motioncode", "motioncode.*"], 
+        exclude=["*data*", "*notebooks*", "*out*", "*examples*"]
+    ),
     python_requires=">=3.8",
     install_requires=[
         "jax",
